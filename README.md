@@ -1,4 +1,4 @@
-SIMPLE gallery using react-native
+SIMPLE gallery  By ykuzin using react-native .
 
 <p>
   <!-- iOS -->
