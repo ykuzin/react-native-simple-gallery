@@ -1,4 +1,4 @@
-# Drawer navigation example
+SIMPLE gallery  By ykuzin using react-native .
 
 <p>
   <!-- iOS -->
@@ -10,11 +10,18 @@
 </p>
 
 ## 🚀 How to use
-
+                            
 - Install with `yarn` or `npm install`.
 - Run `expo start` to try it out.
 
 ## 📝 Notes
-
-- This is a very basic example from the [react navigation](https://reactnavigation.org/) docs.
-- [Drawer navigation documentation](https://reactnavigation.org/docs/drawer-based-navigation).
+Includes:
+* React-Native
+* Redux + redux-thunk,
+* es6 (JS)
+* Flexbox
+* React Navigation [facebook github io/react-native/docs/navigation.html#react-navigation] (Stack Navigation in modal mode)
+* fetch 
+* Hooks
+* компоненты высшего порядка (High Order Components)
+* render props 
