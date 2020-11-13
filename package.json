@@ -1,27 +1,45 @@
 {
   "dependencies": {
-    "@react-native-community/masked-view": "~0.1.10",
+    "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/drawer": "~5.8.4",
     "@react-navigation/native": "~5.6.1",
+    "@react-navigation/stack": "^5.12.6",
+    "dimensions": "^0.1.0",
     "expo": "~39.0.0",
+    "expo-cli": "^3.28.5",
+    "fs": "0.0.1-security",
     "react": "~16.13.0",
     "react-dom": "~16.13.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.2.tar.gz",
-    "react-native-gesture-handler": "~1.6.1",
-    "react-native-reanimated": "~1.9.0",
-    "react-native-safe-area-context": "~3.0.6",
+    "react-native-gesture-handler": "~1.7.0",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-safe-area-context": "3.1.4",
     "react-native-screens": "~2.10.1",
-    "react-native-web": "0.13.13"
+    "react-native-web": "0.13.13",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "@babel/core": "7.9.0"
+    "@babel/core": "7.9.0",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.5",
+    "prettier": "2.1.2",
+    "react-redux": "^7.2.2"
   },
+  "main": "index.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo web",
-    "eject": "expo eject"
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "start": "react-native start",
+    "test": "jest"
   },
   "private": true
 }
